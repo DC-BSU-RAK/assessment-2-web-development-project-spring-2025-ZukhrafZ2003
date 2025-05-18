@@ -1,0 +1,81 @@
+/* this is for the backgound */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #0b0b0b;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+/* This is for the heading */
+header {
+    background-color: #001f4d;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section img {
+    display: block;
+    max-width: 70%; /* Adjusted to medium size */
+    height: auto;
+    margin: 15px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(6, 6, 6, 0.15);
+    transition: transform 0.3s ease;
+}
+
+section img:hover {
+    transform: scale(1.05);
+}
+/* This is for the sub headings */
+h1, h2, h3, h4 {
+    color: #001f4d;
+    margin-bottom: 15px;
+}
+/* This will be at the end of the page */
+footer {
+    background-color: #001f4d;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    font-size: 14.4px;
+    letter-spacing: 0.5px;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    header {
+        font-size: 32px;
+        padding: 15px 0;
+    }
+
+    main {
+        padding: 0 10px;
+    }
+
+    section img {
+        max-width: 90%;
+    }
+
+    h1, h2, h3, h4 {
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,96 @@
+/* This is for the background of the page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #c1ced5;
+    color: #0a1f44;
+    text-align: center;
+}
+
+/* This is for the heading */
+
+header {
+    background: #0a1f44;
+    color: #fff;
+    padding: 19.2px 0;
+    box-shadow: 0 4px 8px rgba(6, 6, 6, 0.2);
+}
+
+/* This is for the sub heading */
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+/* Navigation Styling */
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 8px 0 16px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #cfd8dc;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17.6px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #97adc4; 
+}
+
+section#home {
+    max-width: 800px;             /* the image size */
+    margin: 32px auto 64px auto;
+    padding: 0 16px;
+}
+
+section#home h2 {
+   font-size: 32px;
+   margin-bottom: 16px;
+   color: #0c0c0c;
+}
+
+section#home p {
+    font-size: 19.2px;
+    line-height: 1.8;
+    color: #070707;
+    margin-bottom: 32px;
+}
+
+section#home img {
+    width: 250px;
+    height: auto;
+    margin: 0 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(10, 31, 68, 0.3);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+section#home img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(10, 31, 68, 0.5);
+}
+
+/* This will be at the end of the page */
+
+footer {
+    background: #0a1f44;
+    color: #fff;
+    text-align: center;
+    padding: 16px 0;
+    font-size: 14.4px;
+}
+
+
